@@ -4,10 +4,10 @@ public class Actor {
 	
 	private Integer aid;
 	private String name;
-	private float age;
+	private Integer age;
 	private String type;
 
-	public Actor(Integer aid, String name, float age, String type) {
+	public Actor(Integer aid, String name, Integer age, String type) {
 		this.aid = aid;
 		this.name = name;
 		this.age = age;
@@ -30,11 +30,11 @@ public class Actor {
 		this.name = name;
 	}
 
-	public float getAge() {
+	public Integer getAge() {
 		return age;
 	}
 
-	public void setAge(float age) {
+	public void setAge(Integer age) {
 		this.age = age;
 	}
 

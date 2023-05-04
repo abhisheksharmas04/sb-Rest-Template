@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
-@Component
+//@Component
 public class ActorServiceConsumerRunner_Exchange_GET_Mode_Request implements CommandLineRunner {
 
 	@Override
